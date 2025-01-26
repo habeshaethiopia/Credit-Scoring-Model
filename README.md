@@ -106,3 +106,22 @@ curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json"
 | FraudResult           | 0.18       |  
 
 ---
+
+## 🤝 Contributing  
+1. Fork the repository.  
+2. Create a feature branch: `git checkout -b feature/new-extension`.  
+3. Submit a pull request.  
+
+---
+
+## 📜 License  
+This project is licensed under the MIT License.  
+
+---
+
+## 📚 References  
+1. [Basel II Capital Accord](https://www.bis.org/publ/bcbs128.pdf)  
+2. [Xente Challenge Dataset](https://www.kaggle.com/datasets/atwine/xente-challenge)  
+3. [Weight of Evidence (WoE) Guide](https://www.listendata.com/2015/03/weight-of-evidence-woe-and-information.html)  
+
+---
