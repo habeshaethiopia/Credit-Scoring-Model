@@ -70,11 +70,11 @@ data = {
     "PricingStrategy": ["2"],
     "FraudResult": [0]
 }
+if __name__=="__main__":
+    # Convert to DataFrame
+    new_data = pd.DataFrame(data)
 
-# Convert to DataFrame
-new_data = pd.DataFrame(data)
-
-# Display the sample data
-print(new_data)
-predictions = predict_fraud(new_data)
-print("Predictions:", predictions)
+    # Display the sample data
+    print(new_data)
+    predictions = predict_fraud(new_data)
+    print("Predictions:", predictions)

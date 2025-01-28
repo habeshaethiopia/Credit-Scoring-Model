@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import pandas as pd
-from src.predict import predict_fraud
+from predict import predict_fraud
 app = Flask(__name__)
 
 @app.route('/predict', methods=['POST'])
